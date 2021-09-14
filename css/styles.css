@@ -12,20 +12,37 @@ body {
 /* =================
 Typography
 ================= */
-
-h1 {
+h1,
+h2,
+h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
     color: #143774;
+}
+
+h1 {
+    
+    
     font-size: 2rem;
     margin: 0;
 }
+
+/* The Logo Subtitle */
 
 .subtitle {
     font-weight: 700;
     color: #1792d2;
     font-size: .75rem;
     margin: 0;
+}
+
+.article-title {
+    color: #143774;
+    font-size: 1.5rem;
+}
+
+.article-read-more {
+    font-size: .875rem;
 }
 
 /* =================
