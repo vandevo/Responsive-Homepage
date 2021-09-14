@@ -7,6 +7,8 @@ font-family: 'Ubuntu', sans-serif;
 body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
 }
 
 /* =================
@@ -27,7 +29,22 @@ h1 {
     margin: 0;
 }
 
-/* The Logo Subtitle */
+a {
+    color: #1792d2;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #707070;;
+    text-decoration:none;
+}
+
+strong {
+    font-weight: 700;
+}
+
+/* The H1 Subtitle */
 
 .subtitle {
     font-weight: 700;
@@ -41,8 +58,21 @@ h1 {
     font-size: 1.5rem;
 }
 
-.article-read-more {
+.article-read-more,
+.article-info {
     font-size: .875rem;
+    
+}
+
+.article-read-more {
+    color: #1792d2;
+    text-decoration: none;
+    font-weight: 700;
+}
+.article-read-more:hover,
+.article-read-more:focus {
+    color: #707070;
+    text-decoration: underline;
 }
 
 /* =================
