@@ -81,6 +81,10 @@ strong {
     text-decoration: underline;
 }
 
+.article-info {
+    margin: 2.5em 0;
+}
+
 /* =================
 Layout
 ================= */
@@ -163,4 +167,12 @@ nav a:focus {
     nav li {
         margin: .5em 0;
     }
+}
+
+
+/* article */
+.article-featured {
+    border-bottom: lightgray solid 1px;
+    padding-bottom: 1em;
+    margin-bottom: 3em;
 }
