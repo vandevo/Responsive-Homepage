@@ -17,6 +17,14 @@ img {
     border-radius: 1em;
 }
 
+.image-full {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 1em;
+   
+}
+
 /* =================
 Typography
 ================= */
@@ -121,6 +129,13 @@ header {
     margin-bottom: 3em;
 }
 
+footer {
+    background:#143774;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
 @media (min-width: 675px){
     .container-flex {
         flex-direction: row;
@@ -135,7 +150,8 @@ header {
     }
 }
 
- 
+
+
 
 
 /* Side Bar Left + Right */
