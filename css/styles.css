@@ -27,11 +27,12 @@ h3 {
     font-weight: 400;
     color: #143774;
     margin-top: 0;
+    
 }
 
 h1 {
     
-    
+    font-family: 'Ubuntu', sans-serif;
     font-size: 2rem;
     margin: 0;
 }
@@ -85,6 +86,17 @@ strong {
 .article-info {
     margin: 2.5em 0;
 }
+
+.widget-title, 
+.widget-recent-post-title {
+    font-size: 1rem;
+}
+.widget-title {
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
 
 /* =================
 Layout
@@ -234,5 +246,27 @@ nav a:focus {
     border: 10px solid #f8f8f8;
     padding: 1em;
     margin-bottom: 2em;
-
 }
+
+.widget-recent-post {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #707070;
+    margin-bottom: 1em;
+}
+
+.widget-recent-post:last-child {
+    border: 0;
+    margin: 0;
+}
+
+.widget-recent-post-title {
+    border: -1;
+    margin-bottom: 1em;
+}
+
+.widget-image {
+    border: -2;
+    margin-bottom: 1em; 
+}
+
