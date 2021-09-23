@@ -69,6 +69,7 @@ strong {
     font-size: .75rem;
     margin: 0;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .article-title {
@@ -87,6 +88,7 @@ strong {
     text-decoration: none;
     font-weight: 700;
     text-transform: lowercase;
+    letter-spacing: 1px;
 }
 .article-read-more:hover,
 .article-read-more:focus {
@@ -101,6 +103,7 @@ strong {
 .widget-title, 
 .widget-recent-post-title {
     font-size: 1rem;
+    letter-spacing: 1px;
 }
 .widget-title {
     font-size: 1rem;
@@ -178,6 +181,8 @@ nav a {
     color: #707070;
     font-weight: 700;
     padding: .25em 0;
+    text-transform: uppercase;
+    letter-spacing: 1~px;
 }
 
 nav a:hover,
