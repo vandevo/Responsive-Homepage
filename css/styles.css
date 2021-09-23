@@ -9,6 +9,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.125rem;
     font-weight: 300;
+    line-height: 1.6;
 }
 
 img {
@@ -67,6 +68,7 @@ strong {
     color: #1792d2;
     font-size: .75rem;
     margin: 0;
+    text-transform: uppercase;
 }
 
 .article-title {
@@ -84,6 +86,7 @@ strong {
     color: #1792d2;
     text-decoration: none;
     font-weight: 700;
+    text-transform: lowercase;
 }
 .article-read-more:hover,
 .article-read-more:focus {
@@ -104,7 +107,6 @@ strong {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
 }
-
 
 /* =================
 Layout
@@ -262,6 +264,7 @@ nav a:focus {
     border: 10px solid #f8f8f8;
     padding: 1em;
     margin-bottom: 2em;
+    
 }
 
 .widget-recent-post {
@@ -269,6 +272,7 @@ nav a:focus {
     flex-direction: column;
     border-bottom: 1px solid #707070;
     margin-bottom: 1em;
+    line-height: 1.4;
 }
 
 .widget-recent-post:last-child {
